@@ -10,16 +10,6 @@ gulp.task('default', function(done) {
       type: 'input',
       name: 'name',
       message: 'What is the name of your game?'
-    }, {
-      type: 'input',
-      name: 'width',
-      message: 'What is the width of your game?',
-      "default": 960
-    }, {
-      type: 'input',
-      name: 'height',
-      message: 'What is the height of your game?',
-      "default": 640
     },
     {
       type: 'input',
@@ -61,6 +51,26 @@ gulp.task('state', function(done) {
     .pipe(template({ name: gulp.args[0] }))
     .pipe(rename(gulp.args[0] + '.hx'))
     .pipe(gulp.dest('./src/states'))
+    .on('finish', function() {
+      done();
+  });
+});
+
+gulp.task('model', function(done) {
+  gulp.src(__dirname + "/templates/model/model.hx")
+    .pipe(template({ name: gulp.args[0] }))
+    .pipe(rename(gulp.args[0] + '.hx'))
+    .pipe(gulp.dest('./src/models'))
+    .on('finish', function() {
+      done();
+  });
+});
+
+gulp.task('system', function(done) {
+  gulp.src(__dirname + "/templates/system/system.hx")
+    .pipe(template({ name: gulp.args[0] }))
+    .pipe(rename(gulp.args[0] + '.hx'))
+    .pipe(gulp.dest('./src/systems'))
     .on('finish', function() {
       done();
   });

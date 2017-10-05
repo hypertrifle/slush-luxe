@@ -1,7 +1,7 @@
 {
-  "name": "slush-luxe",
+  "name": "slush-lx",
   "version": "2.4.1",
-  "description": "Slush generator for the luxe engine (HaXe)",
+  "description": "Modified Slush generator for the luxe engine (HaXe)",
   "main": "slushfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "haxe",
     "luxe"
   ],
-  "author": "Zénon Roy",
+  "author": "Rich Searle",
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.0",

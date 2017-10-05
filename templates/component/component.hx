@@ -2,7 +2,7 @@ package components;
 
 import luxe.Component;
 
-class <%= name %> extends Component {
+class <%= _.capitalize(name) %> extends Component {
 
     override function init() {
         //called when initialising the component

@@ -1,22 +1,11 @@
 {
-  luxe:{
-    window: {
-      width: <%= width %>,
-      height: <%= height %>,
-      title:'<%= name %>',
-      fullscreen:false,
-      resizable:true,
-      borderless:false
-    }
-  },
-
   project : {
     name : '<%= name %>',
     version : '0.0.1',
     author : '<%= name %>',
 
     app : {
-      name : 'luxe_empty',
+      name : '<% name %>',
       package : 'com.<%= author %>.<%= name %>'
     },
 

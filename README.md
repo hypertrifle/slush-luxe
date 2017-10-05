@@ -1,3 +1,15 @@
+# A modified version of the [https://github.com/escargotprodige/slush-luxe](sluush-luxe generator) by escargotprodige
+
+- added models.
+- added system.
+- added few more common functions to certain classes.
+- tweaked gitignore.
+- added some more folder structure for assets.
+- added vscode settings for completion and build.
+- some .gitattributes for LFS support.
+
+
+
 # Slush-Luxe
 > The slush generator for the [luxe engine][7d86d792]
 
