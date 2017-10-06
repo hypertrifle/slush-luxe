@@ -1,4 +1,4 @@
-# A modified version of the [https://github.com/escargotprodige/slush-luxe](sluush-luxe generator) by escargotprodige
+# A modified version of the [slush-luxe generator](https://github.com/escargotprodige/slush-luxe) by escargotprodige
 
 - added models.
 - added system.
